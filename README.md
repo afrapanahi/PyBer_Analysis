@@ -2,14 +2,18 @@
 ## Overview
 Using the two data sets (city_data.csv and ride_data.csv), we are summarizing and comparing the total fares in three types of cities: urban, suburban and rural. 
 ## Results
-The following shows a ride sharing summary by city type. 
+The following shows a ride sharing summary by city type.
+
 ![DataFrame](/Resources/my_summary_data_frame.png?raw=true "DataFrame")
+
 -	As shown in the table, there are significantly more rides in urban cities compared to suburban or rural areas. 
 -	There are 2405 drivers in urban cities compared to 490 in suburban and only 78 in rural cities. 
 -	The average fare per ride in rural cities is larger than urban and suburban cities
 -	Average fare per driver is much larger in rural cities than suburban or urban cities. This could be due to larger distances usually traveled in rural cities or smaller number of drivers which makes the business less competitive.
 The following can be observed in the line chart of fare vs date (see the following figure)
-![LineChart](/Resources/my_fare_summary.png?raw=true "LineChart")
+
+![LineChart](/Resources/PyBer_fare_summary.png "LineChart")
+
 -	The overall fare in urban cities is larger than suburban or rural cities. Going back to the summary table, this is due to lack of use of ride sharing in the latter two categories
 -	Both urban and suburban cities show increase in the total fare from Jan to Fab. In urban cities the increase continues to late Feb while in suburban cities, it decreases in Feb, spikes up in late Feb, decreases in Mar and stays low till mid Apr.
 -	The increase in late Feb to early Mar is observed in all three categories.
